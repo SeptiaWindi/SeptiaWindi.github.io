@@ -1,0 +1,121 @@
+/* Umum */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f0ad4e;
+}
+
+/* Hero Section */
+.bg-primary {
+    background-color: #fc46c8 !important;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+/* Tentang Saya */
+.profile-img {
+    width: 10px;
+    height: 10px;
+    object-fit: cover;
+    border: 1px solid #f0ad4e;
+}
+
+/* Section umum */
+section {
+    padding: 10px 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+}
+
+.bg-light {
+    background-color: #e2329e !important;
+}
+
+p, li {
+    font-size: 1.1rem;
+}
+
+/* Portofolio */
+.card {
+    margin-bottom: 30px;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    .navbar-nav .nav-link {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1rem;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+    
+    .card-img-top {
+        height: 150px;
+    }
+    
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+}
